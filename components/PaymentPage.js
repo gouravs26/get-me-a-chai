@@ -97,7 +97,7 @@ useEffect(() => {
                     @{username}
                 </div>
                 <div className='text-slate-400 px-6 text-center'>
-                    Let's support {username} to keep the chai flowing!
+                    Let&apos;s support {username} to keep the chai flowing!
                 </div>
                 <div className='text-slate-400'>
                     {payments.length} payment | ₹{payments.reduce((acc, pay) => acc + pay.amount, 0)} raised
