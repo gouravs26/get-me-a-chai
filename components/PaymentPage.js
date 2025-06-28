@@ -111,7 +111,7 @@ useEffect(() => {
                             return (<li key={i} className='my-5 flex items-center gap-2'>
                             <img width={40} src="avatar.gif" alt="" />
                             <span>
-                                {pay.name} donated <span className='font-bold'>₹{(pay.amount)}</span> with a message "{pay.message || "No message"}"
+                                {pay.name} donated <span className='font-bold'>₹{(pay.amount)}</span> with a message &quot;{pay.message || "No message"}&quot;
                             </span>
                         </li>)}
                             )}
